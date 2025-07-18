@@ -46,6 +46,6 @@ app.get('/callback', async (req,res) =>{
 app.get('/',(req,res) =>{
     res.send('Hello From The Dark Side of the Moon')
 })
-app.listen(port,'127.0.0.1',() => {
-    console.log(`server listending at http://127.0.0.1:${port}`);
+app.listen(port,() => {
+    console.log(`server listending at ${port}`);
 })
